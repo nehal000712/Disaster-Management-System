@@ -132,11 +132,7 @@ Print rollback confirmation
 
 ---
 
-## ⚖️ Fairness vs. Urgency
 
-A core design tension: strict arrival order (fair) vs. severity-based urgency (life-saving, but can starve low-severity requests). The system keeps the **queue as the structural backbone** but re-sorts by severity — both as an explicit menu option and automatically before every dispatch. Equal-severity requests retain their relative arrival order, giving urgency priority while arrival order acts as the tiebreaker.
-
----
 
 ## 🖥️ Features / Menu Options
 
